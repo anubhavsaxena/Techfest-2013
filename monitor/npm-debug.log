@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ar-drone' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json F:\techfest\monitor\package.json
+6 verbose read json F:\techfest\monitor\node_modules\ar-drone\package.json
+7 verbose read json F:\techfest\monitor\node_modules\express\package.json
+8 verbose read json F:\techfest\monitor\node_modules\faye\package.json
+9 verbose from cache F:\techfest\monitor\package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'ar-drone@git://github.com/felixge/node-ar-drone.git', null ]
+12 verbose cache add name=undefined spec="ar-drone@git://github.com/felixge/node-ar-drone.git" args=["ar-drone@git://github.com/felixge/node-ar-drone.git",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'ar-drone@git://github.com/felixge/node-ar-drone.git',
+13 verbose parsed url   path: 'ar-drone@git://github.com/felixge/node-ar-drone.git',
+13 verbose parsed url   href: 'ar-drone@git://github.com/felixge/node-ar-drone.git' }
+14 verbose cache add name="ar-drone" spec="git://github.com/felixge/node-ar-drone.git" args=["ar-drone","git://github.com/felixge/node-ar-drone.git"]
+15 verbose parsed url { protocol: 'git:',
+15 verbose parsed url   slashes: true,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: 'github.com',
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: 'github.com',
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '/felixge/node-ar-drone.git',
+15 verbose parsed url   path: '/felixge/node-ar-drone.git',
+15 verbose parsed url   href: 'git://github.com/felixge/node-ar-drone.git' }
+16 silly lockFile 0fa43af6-ub-com-felixge-node-ar-drone-git git://github.com/felixge/node-ar-drone.git
+17 verbose lock git://github.com/felixge/node-ar-drone.git C:\Users\vibhor1810.NAGARRO\AppData\Roaming\npm-cache\0fa43af6-ub-com-felixge-node-ar-drone-git.lock
+18 verbose addRemoteGit [ 'git://github.com/felixge/node-ar-drone.git', 'master' ]
+19 silly exec git "config" "--get" "remote.origin.url"
+20 silly git,config,--get,remote.origin.url,C:\Users\vibhor1810.NAGARRO\AppData\Roaming\npm-cache\_git-remotes\git-github-com-felixge-node-ar-drone-git-0fa43af6 spawning
+21 warn `git config --get remote.origin.url` returned wrong result (git://github.com/felixge/node-ar-drone.git) undefined
+21 warn `git config --get remote.origin.url` returned wrong result (git://github.com/felixge/node-ar-drone.git) undefined
+22 silly exec git "clone" "--mirror" "git://github.com/felixge/node-ar-drone.git" "C:\\Users\\vibhor1810.NAGARRO\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-felixge-node-ar-drone-git-0fa43af6"
+23 silly git,clone,--mirror,git://github.com/felixge/node-ar-drone.git,C:\Users\vibhor1810.NAGARRO\AppData\Roaming\npm-cache\_git-remotes\git-github-com-felixge-node-ar-drone-git-0fa43af6, spawning
+24 error git clone git://github.com/felixge/node-ar-drone.git undefined
+24 error git clone git://github.com/felixge/node-ar-drone.git undefined
+25 silly lockFile 0fa43af6-ub-com-felixge-node-ar-drone-git git://github.com/felixge/node-ar-drone.git
+26 silly lockFile 0fa43af6-ub-com-felixge-node-ar-drone-git git://github.com/felixge/node-ar-drone.git
+27 error Error: spawn ENOENT
+27 error     at errnoException (child_process.js:975:11)
+27 error     at Process.ChildProcess._handle.onexit (child_process.js:766:34)
+28 error If you need help, you may report this log at:
+28 error     <http://github.com/isaacs/npm/issues>
+28 error or email it to:
+28 error     <npm-@googlegroups.com>
+29 error System Windows_NT 6.1.7601
+30 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "ar-drone"
+31 error cwd F:\techfest\monitor
+32 error node -v v0.10.5
+33 error npm -v 1.2.18
+34 error syscall spawn
+35 error code ENOENT
+36 error errno ENOENT
+37 verbose exit [ 1, true ]
